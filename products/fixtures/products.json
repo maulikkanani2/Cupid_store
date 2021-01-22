@@ -1,0 +1,603 @@
+[{
+		"pk": 1,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5001340155",
+			"name": "Tommy",
+			"description": "Cuddly bear, toy",
+			"price": 20.88,
+			"category": 1,
+			"image": "bear_1.jpeg"
+		}
+	},
+	{
+		"pk": 2,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5001600425",
+			"name": "bear",
+		  	"description": "Cuddly bear, toy",
+			"price": 21.99,
+			"category": 1,
+			"image": "bear_2.jpeg"
+		}
+	},
+	{
+		"pk": 3,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5001730010",
+			"name": "Royal bear ",
+			"description": "Cuddly bear, toy",
+			"price": 20.99,
+			"category": 1,
+			"image": "bear_3.jpeg"
+		}
+	},
+	{
+		"pk": 4,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5001890157",
+			"name": "Velvet",
+			"description": "Cuddly bear, toy",
+			"price": 69.99,
+			"category": 1,
+			"image": "bear_4.jpeg"
+		}
+	},
+	{
+		"pk": 5,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002111605",
+			"name": "Strong Bear",
+			"description": "Cuddly bear, toy",
+			"price": 32.99,
+			"category": 1,
+			"image": "bear_5.jpeg"
+		}
+	},
+	{
+		"pk": 6,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002260206",
+			"name": "Cuddly bear",
+			"description": "Friendly Bear",
+			"price": 30.99,
+			"category": 1,
+			"image": "bear_6.jpeg"
+		}
+	},
+	{
+		"pk": 7,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002440521",
+			"name": "Sleepy bear",
+			"description": "soft teddybear",
+			"price": 29.0,
+			"category": 1,
+			"image": "bear_7.jpeg"
+		}
+	},
+	{
+		"pk": 8,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002601115",
+			"name": "Small bear",
+		  	"description": "soft teddybear",
+			"price": 16.99,
+			"category": 1,
+			"image": "bear_8.jpeg"
+		}
+	},
+	{
+		"pk": 9,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002690715",
+			"name": "Sweet Bear",
+			"description": "Cuddly bear",
+			"price": 49.99,
+			"category": 1,
+			"image": "bear_9.jpeg"
+		}
+	},
+	{
+		"pk": 10,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002701115",
+			"name": "Classic Bear",
+			"description": "soft",
+			"price": 23.99,
+			"category": 1,
+			"image": "bear_10.jpeg"
+		}
+	},
+	{
+		"pk": 11,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002761055",
+			"name": "Milk Chocolates",
+			"description": "Milk Chocolates",
+			"price": 9.99,
+			"category": 2,
+			"image": "chocolates_1.jpeg"
+
+		}
+	},
+	{
+		"pk": 12,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002820069",
+			"name": "Special Chocolates",
+			"description": "For special occasio",
+			"price": 5.99,
+			"category": 2,
+			"image": "chocolates_2.jpeg"
+		}
+	},
+	{
+		"pk": 13,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002820147",
+			"name": "Champion Chocolates",
+			"description": "Milk chocolate with nuts",
+			"price": 6.0,
+			"category": 2,
+			"image": "chocolates_3.jpeg"
+		}
+	},
+	{
+		"pk": 14,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002910572",
+			"name": "Valeriya Chocolates ",
+		 	"description": "Milk chocolate with nuts",
+			"price": 16.99,
+			"category": 2,
+			"image": "chocolates_4.jpeg"
+		}
+	},
+	{
+		"pk": 15,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5002990740",
+			"name": "Macademia nuts chocolates",
+			"description": "Milk chocolate with nuts",
+			"price": 9.99,
+			"category": 2,
+			"image": "chocolates_5.jpg"
+		}
+	},
+	{
+		"pk": 16,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003050248",
+			"name": "Chocolates de Paris",
+			"description": " French chocolates",
+			"price": 12.99,
+			"category": 2,
+			"image": "chocolates_6.jpeg"
+		}
+	},
+	{
+		"pk": 17,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003070787",
+			"name": "Eternity",
+			"description": "Mixed chocolates",
+			"price": 13.99,
+			"category": 2,
+			"image": "chocolates_7.jpeg"
+		}
+	},
+	{
+		"pk": 18,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003090182",
+			"name": "Marvel Carmel",
+			"description": "German product",
+			"price": 11.99,
+			"category": 2,
+			"image": "chocolates_8.jpeg"
+		}
+	},
+	{
+		"pk": 19,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003090186",
+			"name": "Amsterdam Chocolates",
+			"description": "Bitter chocolates",
+			"price": 12.99,
+			"category": 2,
+			"image": "chocolates_9.jpeg"
+		}
+	},
+	{
+		"pk": 20,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003161326",
+			"name": "Mint Chocolate",
+			"description": "KFresh summer MInt Chocolate ",
+			"price": 11.33,
+			"category": 2,
+			"image": "chocolate_10.jpeg"
+		}
+	},
+	{
+		"pk": 21,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003230723",
+			"name": "Red Roses",
+			"description": "Collection of assorted roses",
+			"price": 11.99,
+			"category": 3,
+			"image": "flowers_1.jpeg"
+		}
+	},
+	{
+		"pk": 22,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003270936",
+			"name": "Silver Roses Gina ",
+			"description": "Last up to 10 days in a vase",
+			"price": 11.99,
+			"category": 3,
+			"image": "flowers_2.jpeg"
+		}
+	},
+	{
+		"pk": 23,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003360384",
+			"name": "Rosanna Roses",
+			"description": "Imported from Kairo",
+			"price": 12.99,
+			"category": 3,
+			"image": "flowers_3.jpeg"
+		}
+	},
+	{
+		"pk": 24,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003440111",
+			"name": "Royal Velvet",
+			"description": " Nice delicate smell",
+			"price": 14.0,
+			"category": 3,
+			"image": "flowers_4.jpeg"
+		}
+	},
+	{
+		"pk": 25,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003540313",
+			"name": "Dickies Heavyweight Roses",
+			"description": "Grown in Northen part of the UK",
+			"price": 18.99,
+			"category": 3,
+			"image": "flowers_5.jpeg"
+		}
+	},
+	{
+		"pk": 26,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003560513",
+			"name": "J.Samantha Roses",
+			"description": "Roses from  Berlin",
+			"price": 32.99,
+			"category": 3,
+			"image": "flowers_6.jpeg"
+		}
+	},
+	{
+		"pk": 27,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003560948",
+			"name": "Rachael Ray Roses",
+			"description": "Y Grown in Spain, limited collection",
+			"price": 33.33,
+			"category": 3,
+			"image": "flowers_7.jpg"
+		}
+	},
+	{
+		"pk": 28,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003570628",
+			"name": "Hanes Crewneck Rosesl",
+			"description": "Grown in Sweden",
+			"price": 22.99,
+			"category": 3,
+			"image": "flowers_8.jpeg"
+		}
+	},
+	{
+		"pk": 29,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003620308",
+			"name": "Chenille Rose ",
+			"description": "Produced in Holland",
+			"price": 11.99,
+			"category": 3,
+			"image": "flowers_9.jpeg"
+		}
+	},
+	{
+		"pk": 30,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003690115",
+			"name": "Suummer Breeze Roses",
+			"description": "Fresh scent",
+			"price": 11.99,
+			"category": 3,
+			"image": "flowers_10.jpeg"
+		}
+    },
+    {
+		"pk": 31,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003690116",
+			"name": "Keyholder Denis",
+			"description": "durable",
+			"price": 11.99,
+			"category": 3,
+            "image": "key_holder_1.jpeg"
+    }
+	},
+
+	{
+		"pk": 32,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003780391",
+			"name": "Keyholder Max",
+			"description": "Makes a nice small gift",
+			"price": 22.99,
+			"category": 4,
+			"image": "key_holder_2.jpeg"
+		}
+	},
+	{
+		"pk": 33,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003790542",
+			"name": "Keyholder Liz ",
+			"description": "Suitable for both men and women",
+			"price": 11.99,
+			"category": 4,
+			"image": "key_holder_3.jpeg"
+		}
+	},
+	{
+		"pk": 34,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003831225",
+			"name": "Stafford Keyholder",
+			"description": "Standar keyholderg",
+			"price": 11.99,
+			"category": 4,
+			"image": "key_holder_4.jpeg"
+		}
+	},
+	{
+		"pk": 35,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003861402",
+			"name": "Arizona",
+			"description": "From a new collection",
+			"price": 20.99,
+			"category": 4,
+			"image": "key_holder_5.jpeg"
+		}
+	},
+	{
+		"pk": 36,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003910638",
+			"name": "Crew ",
+			"description": "makes anice gift for friends",
+			"price": 23.99,
+			"category": 4,
+			"image": "key_holder_6.jpeg"
+		}
+	},
+	{
+		"pk": 37,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003950574",
+			"name": "Royal Keyholder",
+			"description": "For special occasion",
+			"price": 21.99,
+			"category": 4,
+			"image": "key_holder_7.jpeg"
+		}
+	},
+	{
+		"pk": 38,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003950576",
+			"name": "Levinsohn keyholderr",
+			"description": " heavy",
+			"price": 62.99,
+			"category": 4,
+			"image": "key_holder_8.jpeg"
+		}
+	},
+	{
+		"pk": 39,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003960062",
+			"name": "Keyholder Tom",
+			"description": " heavy",
+			"price": 9.09,
+			"category": 4,
+			"image": "key_holder_9.jpeg"
+		}
+	},
+	{
+		"pk": 40,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003960682",
+			"name": "Keyholder Bonny ",
+			"description": " heavy",
+			"price": 5.09,
+			"category": 4,
+			"image": "key_holder_10.jpeg"
+		}
+	},
+	{
+		"pk": 41,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003960775",
+			"name": "Alexis",
+			"description": "Silver ",
+			"price": 413.99,
+			"category": 5,
+			"image": "pendant_1.jpeg"
+		}
+	},
+	{
+		"pk": 42,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003990736",
+			"name": "Lusie",
+			"description": "White gold.",
+			"price": 228.99,
+			"category": 5,
+			"image": "pendant_2.jpeg"
+		}
+	},
+	{
+		"pk": 43,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5003990746",
+			"name": "Classic",
+			"description": "Elegant",
+			"price": 365.99,
+			"category": 5,
+			"image": "pendant_3.jpeg"
+		}
+	},
+	{
+		"pk": 44,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004111503",
+			"name": "Elegance",
+			"description": "Silver",
+			"price": 260.99,
+			"category": 5,
+			"image": "pendant_5.jpeg"
+		}
+	},
+	{
+		"pk": 45,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004230059",
+			"name": "Eternity",
+			"description": "Silver",
+			"price": 241.0,
+			"category": 5,
+			"image": "pendant_5.jpeg"
+		}
+	},
+	{
+		"pk": 46,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004310089",
+			"name": "Unique",
+			"description": "White gold",
+			"price": 362.99,
+			"category": 5,
+			"image": "pendant_6.jpeg"
+		}
+	},
+	{
+		"pk": 47,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004610254",
+			"name": "Miss Shanghai",
+			"description": "Produced in Shanghai, silver",
+			"price": 428.99,
+			"category": 5,
+			"image": "pendant_7.jpeg"
+		}
+	},
+	{
+		"pk": 48,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004650050",
+			"name": "Jamaica",
+			"description": "Silver",
+			"price": 234.99,
+			"category": 5,
+			"image": "pendant_8.jpeg"
+		}
+	},
+	{
+		"pk": 49,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004821375",
+			"name": "Princess",
+			"description": "Silver",
+			"price": 260.99,
+			"category": 5,
+			"image": "pendant_9.jpeg"
+		}
+	},
+	{
+		"pk": 50,
+		"model": "products.product",
+		"fields": {
+			"sku": "pp5004900522",
+			"name": "Mysterious",
+			"description": "Mixed:silver 50%, 50% others",
+			"price": 266.99,
+			"category": 5,
+			"image": "pendant_10.jpeg"
+		}
+	}
+]

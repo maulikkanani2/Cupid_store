@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+Products
+{% endblock %}
+
+{% block content %}
+
+<style>  
+
+.product_title {      
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.product_text {
+  padding-right: 20px;
+}
+
+.product_description {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+@media (min-width: 768px) {
+  .product_title {
+        margin-top: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrap {
+     padding-left: 70px;
+  }
+}
+
+
+
+
+</style>
+
+
+<div class="overlay container py-5">
+  <div class="row mt-5">
+    <div class="col-10 mx-auto col-md-6 my-3">
+       <div class="image-container my-5">
+                    {% if product.image %}
+                        <a href="{{ product.image.url }}" target="_blank">
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                        </a>
+                    {% endif %}
+                </div>
+    </div>
+    <div class="wrap col-10 mx-auto col-md-6 my-3">
+      <div class="">
+        <h1 class=" product_title">{{product.name}}</h1>
+        <h5 class="text-info font-italic mb-3">
+          <span class=" product-price mr-1">$</span> {{product.price}}
+        </h5>
+        <p class="product_description ">Product Description:</p>
+        <p class="text-justify product_text">{{product.description}}</p>
+        {% if product.stock <= 0 %}
+        <p class="text-justify product_text"><b>Out of Stock</b></p>
+        {% else %}
+        <!-- Adding form to add To cart and Quantity -->
+          <form  action="{% url 'add_cart' product.id %}" method="POST" class="btn-block">
+            {% csrf_token %}
+            <input  type="hidden" name='product' value={{product.id}}>
+            <input class="form-control"  style="width: 50%;" type="number" min='1' step='1' name='quantity' value="1"  required/>
+            <button type="submit" style="margin-top: 10px;" class="btn btn-secondary"
+              value="Add To Cart">Add to Cart</button>
+          </form>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+  <div class="card-header">
+    <h4>Reviews</h4>
+  </div>
+  {% if user.is_authenticated %}
+  <div class="card-body">
+    <form method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <textarea name="content" class="form-control"></textarea>
+      </div>
+      <div class="form-group">
+      <button type="submit" class="btn btn-success">Post</button>
+      </div>
+    </form>
+  </div>
+  {% endif %}
+
+  {% if reviews.count > 0 %}
+  <ul class="list-group list-group-flush">
+   {% for review in reviews %}
+       <li class="list-group-item"> <h5>{{review.user.username}}</h5>
+       <p class="card-text">{{review.content}}</p>
+       </li>
+   {% endfor %}
+ </ul>
+
+  {% endif %}
+
+
+</div>
+
+</div>
+
+
+{% endblock %}

@@ -1,0 +1,35 @@
+
+
+
+
+<div class="collapse navbar-collapse" id="main-nav" style="background-color:white">
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                All Products
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categories
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+                <a href="{% url 'products' %}?category=bears" class="dropdown-item">Bears</a>
+                <a href="{% url 'products' %}?category=chocolates" class="dropdown-item">Chocolates</a>
+                <a href="{% url 'products' %}?category=flowers" class="dropdown-item">Flowers</a>
+                <a href="{% url 'products' %}?category=keyholders" class="dropdown-item">Keyholders</a>
+                <a href="{% url 'products' %}?category=pendants" class="dropdown-item">Pendants</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black" href="{% url 'products' %}?category=deals" class="dropdown-item" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Special Offers
+            </a>
+        </li>
+    </ul>
+</div>
