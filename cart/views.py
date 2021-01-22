@@ -9,7 +9,7 @@ def view_cart(request):
 
     return render(request, 'cart/cart.html')
 
-
+# Add To cart changes
 def add_cart(request, item_id):
     """ Add a quantity of the specified product to the shopping cart """
 
@@ -84,3 +84,7 @@ def remove_from_cart(request, item_id):
     except Exception as e:
         messages.error(request, f'Error removing item: {e}')
         return HttpResponse(status=500)
+
+
+
+        
