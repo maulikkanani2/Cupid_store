@@ -13,11 +13,13 @@ def index(request):
 # Redirect to logout page
 def logoutWarning(request):
     if request.method == 'POST':
-        logout(request)
         return redirect('account_login')
     return render(request, 'allauth/account/logout.html')
-    
+
 # Logout user function
 def logoutUser(request):
     logout(request)
     return redirect('account_login')
+
+
+
