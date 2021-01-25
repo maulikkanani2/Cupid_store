@@ -9,7 +9,6 @@ from django.contrib.auth.decorators import login_required
 
 
 #add Checkout Function
-@login_required
 def checkout(request):
     if request.method == 'POST':
         return redirect('stripe_payment')
